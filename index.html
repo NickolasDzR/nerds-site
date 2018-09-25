@@ -2,46 +2,64 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
+    <title>Nerds site</title>
   </head>
 <body>
-<header>
+	<div class="container">
+<header class="main-header">
 <nav class="navigation">
-	 <img class="nerds-logo.svg" src="img/nerds-logo.svg" alt="логотип сайта" width="160" height="65">
-	<ul>
-		<li>Студия</li>
-		<li>Клиенты</li>
-		<li>Магазин</li>
-		<li>Контакты</li>
-		<li>Корзина</li>
+	 <img class="nerds-logo" src="img/nerds-logo.svg" alt="логотип сайта" width="160" height="65">
+	<ul class="main-menu-navigation">
+		<li class="menu-item">
+			<a class="nav-link-one" href="#studio">Студия</a>
+		</li>
+		<li class="menu-item">
+			<a class="nav-link-two" href="#clients">Клиенты</a>
+		</li>
+		<li class="menu-item">
+			<a class="nav-link-three" href="#shops">Магазин</a>
+		</li>
+		<li class="menu-item">
+			<a class="nav-link-four" href="#contacts">Контакты</a>
+		</li>
+		</ul>
+		<ul class="main-menu-basket">
+		<li class="menu-item-basket">
+			<a class="nav-link" href="#basket">Корзина</a>
+		</li>
 	</ul>
 </nav>
 <div class="slider">
-	<h2>Долго, дорого, скрупулезно.</h2>
-	<p>Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
+	<h2 class="headline-first">Долго, дорого, скрупулезно.</h2>
+	<p class="kind">Математически выверенный дизайн<br>
+	 для вашего сайта или мобильного приложения</p>
 	<a class="link-know-more" href="">Узнать больше</a>
 </div>
 </header>
 <main class="main-conteiner">
 <div class="offers">
-	<div class="offers-one">
+	<div class="col-offers">
+	<div class="company-offers">
 		<img class="web-sites" src="img/web-sites.jpg" width="300" height="146">
 		<h3>Веб-сайты</h3>
 		<p>Мир Никогда не будет прежним после того как увидит ваш сайт!</p>
 		<a class="link-know-more" href="">Заказать</a>
 	</div>
-	<div class="offers-two">
+	<div class="company-offers">
 		<img class="web-sites" src="img/apps.jpg" width="300" height="146">
 		<h3>Приложения</h3>
 		<p>Покорите топ-10 приложений в AppStore и Google Play</p>
 		<a class="link-know-more" href="">Заказать</a>
 	</div>
-	<div class="offers-three">
+	<div class="company-offers">
 		<img class="web-sites" src="img/presentation.jpg" width="300" height="146">
 		<h3>Презентации</h3>
 		<p>Вы даже не подозреваете, насколько вы изумительны!</p>
 		<a class="link-know-more" href="">Заказать</a>
 	</div>
+</div>
 	<div class="about-us">
 		<div class="information">
 			<h3>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h3>
@@ -95,5 +113,6 @@
 		<p>Скидка 10% для друзей из социальных сетей.</p>
 	</div>
 </footer>
+</div>
 </body>
 </html>

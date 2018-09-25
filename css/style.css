@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Arial", medium;
+  font-size: 14px;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #fff;
+  background-position: top center;
+  background-repeat: repeat;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-header {
+	height: 545px;
+}
+
+.container {
+	width: 1440px;
+	margin: 0 auto;
+	background-color: #eee;
+	margin: 0 auto;
+}
+
+.navigation {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #eee;
+	position: relative;
+	padding: 30px 140px 20px 140px;
+}
+
+.main-menu-navigation {
+	font-size: 14px;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	color: #fff;
+}
+
+.nav-link {
+	text-decoration: none;
+}
+
+.nerds-logo {
+	display: block;
+	margin-right: 200px;
+}
+
+.menu-item {
+}
+
+.main-menu-basket {
+	list-style: none;
+}
+
+.menu-item-basket {
+	margin-left: 140px;
+}
+
+.nav-link-one,
+.nav-link-two {
+	margin-right: 50px;
+}
+
+.nav-link-three {
+	margin-right: 45px;
+}
+
+.slider {
+	margin-left: 140px;
+	max-width: 450px;
+}
+
+.headline-first {
+	font-size: 55px;
+}
+
+.kind {
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+.link-know-more {
+	border: 0px solid #fff;
+	background-color: #fb565a;
+	padding: 20px 55px 20px 55px;
+	border-radius: 6px;
+}
+
+.col-offers {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.company-offers {
+	flex: 0 0 33,33334%;
+}
