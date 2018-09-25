@@ -128,3 +128,64 @@ a {
 	border-radius: 6px;
 	background-color: #efc849;
 }
+
+.about-us {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: frap;
+	border-top: 2px solid lightgray;
+	border-bottom: 2px solid lightgray;
+	padding: 40px;
+}
+
+.information {
+	flex: 70%;
+}
+
+.garanties {
+	flex: 30%;
+	text-align: right;
+}
+
+.catalog {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	width: 360px;
+}
+
+.list-advantage-one,
+.list-advantage-two,
+.list-advantage-three {
+	max-width: 100px;
+}
+
+.list-advantage-two {
+}
+
+.list-advantage-three {
+}
+
+.percent {
+	font-size: 45px;	
+}
+
+.set-paragraph,
+.paragraph {
+	font-size: 16px;
+}
+
+.header-about-us {
+	font-size: 45px;
+}
+
+.paragraph-about-us {
+	font-size: 14px;
+}
+
+.catalog-style {
+	 background: url(../img/line.svg) no-repeat left center;
+	 margin-right: 10px;
+	 list-style: none;
+}
