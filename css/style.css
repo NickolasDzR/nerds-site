@@ -5,7 +5,7 @@ body {
   font-size: 14px;
   color: #000000;
   text-transform: uppercase;
-  background-color: #fff;
+  background-color: lightblue;
   background-position: top center;
   background-repeat: repeat;
 }
@@ -17,12 +17,13 @@ a {
 
 .main-header {
 	height: 545px;
+	background-color: #eeeeee;
 }
 
 .container {
 	width: 1440px;
 	margin: 0 auto;
-	background-color: #eee;
+	background-color: #fff;
 	margin: 0 auto;
 }
 
@@ -95,8 +96,35 @@ a {
 .col-offers {
 	display: flex;
 	flex-wrap: wrap;
+	background-color: #fff;
+	padding: 80px 40px 80px 140px;
 }
 
 .company-offers {
-	flex: 0 0 33,33334%;
+	width: 300px;
+	height: 345px;
+	margin-right: 100px;
+}
+
+.web-sites,
+.header-h3 {
+	margin-bottom: 25px;
+}
+
+.paragraph {
+	margin-bottom: 50px;
+}
+
+.link-know-green {
+	border: 0px solid #fff;
+	padding: 20px 55px 20px 55px;
+	border-radius: 6px;
+	background-color: #00ca74;
+}
+
+.link-know-yelow {
+	border: 0px solid #fff;
+	padding: 20px 55px 20px 55px;
+	border-radius: 6px;
+	background-color: #efc849;
 }
