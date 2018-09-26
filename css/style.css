@@ -74,7 +74,22 @@ a {
 
 .slider {
 	margin-left: 140px;
-	max-width: 450px;
+	height: 170px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-slider-one {
+	flex: 0 0 35%;
+	max-width: 35%;
+}
+
+.col-slider-two {
+	flex: 0 0 65%;
+	max-width: 65%;
 }
 
 .headline-first {
@@ -133,18 +148,17 @@ a {
 	width: 1200px;
 	margin: 0 auto;
 	display: flex;
-	flex-wrap: frap;
 	border-top: 2px solid lightgray;
 	border-bottom: 2px solid lightgray;
 	padding: 40px;
 }
 
 .information {
-	flex: 70%;
+	flex: 0 0 70%;
 }
 
 .garanties {
-	flex: 30%;
+	flex: 0 0 30%;
 	text-align: right;
 }
 
@@ -185,7 +199,36 @@ a {
 }
 
 .catalog-style {
-	 background: url(../img/line.svg) no-repeat left center;
-	 margin-right: 10px;
-	 list-style: none;
+	list-style: none;
+}
+
+.catalog-style-image-one {
+	position: absolute;
+	left: 200px;
+	top: 1377px;
+}
+
+.catalog-style-image-two {
+	position: absolute;
+	left: 200px;
+	top: 1392px;
+}
+
+.catalog-style-image-three {
+	position: absolute;
+	left: 200px;
+	top: 1408px;
+}
+
+.partners {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px 0 30px 0;
+	border-bottom: 2px solid lightgray;
+}
+
+.col-partners-image {
+	flex: 0 0 25%;
 }
