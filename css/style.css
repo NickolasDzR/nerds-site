@@ -31,7 +31,7 @@ a {
 	flex-wrap: wrap;
 	background-color: #eee;
 	position: relative;
-	padding: 30px 140px 20px 140px;
+	padding: 49px 140px 20px 140px;
 }
 
 .nerds-logo {
@@ -55,7 +55,7 @@ a {
 }
 
 .cart-icon {
-	margin-right: 15px;
+	margin-right: 21px;
 }
 
 .menu-item {
@@ -63,10 +63,16 @@ a {
 
 .main-menu-basket {
 	list-style: none;
+	font-size: 16px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 33px;
+	margin-left: 65px;
 }
 
 .menu-item-basket {
 	margin-left: 140px;
+
 }
 
 .nav-link-one,
@@ -81,6 +87,7 @@ a {
 .slider {
 	margin-left: 140px;
 	height: 170px;
+	padding-top: 9.5px;
 }
 
 .row {
@@ -96,24 +103,32 @@ a {
 .col-slider-two {
 	flex: 0 0 65%;
 	max-width: 65%;
+	margin-top: -15px;
+	margin-left: -24px;
+	z-index: 1;
 }
 
 .headline-first {
-	font-weight: medium-italic;
+	font-weight: 500;
+	line-height: 55px;
 	font-size: 55px;
+	margin-bottom: 26px;
 }
 
 .kind {
-	font-weight: regular;
 	font-size: 16px;
-	margin-bottom: 40px;
+	margin-bottom: 55px;
+	line-height: 24px;
 }
 
 .link-know-more {
 	border: 0px solid #fff;
 	background-color: #fb565a;
-	padding: 20px 55px 20px 55px;
-	border-radius: 6px;
+	padding: 16px 54px 15px 54px;
+	border-radius: 4px;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 
 .col-offers {
@@ -130,35 +145,54 @@ a {
 	margin-right: 100px;
 }
 
-.web-sites,
+.web-sites {
+}
+
 .header-h3 {
-	margin-bottom: 25px;
+	margin-bottom: 16px;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
 .paragraph {
-	margin-bottom: 50px;
+	margin-bottom: 48px;
+}
+
+.link-know-more-red {
+	border: 0px solid #fff;
+	background-color: #fb565a;
+	padding: 16px 40px 15px 40px;
+	border-radius: 4px;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 
 .link-know-green {
 	border: 0px solid #fff;
-	padding: 20px 55px 20px 55px;
-	border-radius: 6px;
-	background-color: #00ca74;
+	background-color: #05cb77;
+	padding: 16px 40px 15px 40px;
+	border-radius: 4px;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 
 .link-know-yelow {
 	border: 0px solid #fff;
-	padding: 20px 55px 20px 55px;
-	border-radius: 6px;
-	background-color: #efc849;
+	background-color: #efc84a;
+	padding: 16px 40px 15px 40px;
+	border-radius: 4px;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
 }
 
 .about-us {
 	width: 1200px;
 	margin: 0 auto;
 	display: flex;
-	border-top: 2px solid lightgray;
-	border-bottom: 2px solid lightgray;
 	padding: 40px;
 }
 
@@ -197,6 +231,7 @@ a {
 .set-paragraph,
 .paragraph {
 	font-size: 16px;
+	line-height: 24px;
 }
 
 .header-about-us {
