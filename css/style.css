@@ -135,7 +135,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #fff;
-	padding: 80px 40px 80px 140px;
+	padding: 80px 40px 81px 140px;
 	box-sizing: border-box;
 }
 
@@ -145,18 +145,25 @@ a {
 	margin-right: 100px;
 }
 
-.web-sites {
-}
-
 .header-h3 {
 	margin-bottom: 16px;
+	margin-top: 21px;
+	color: #000000;
+	font-family: Roboto;
 	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
 	text-transform: uppercase;
-	font-weight: bold;
 }
 
 .paragraph {
-	margin-bottom: 48px;
+	color: #283136;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	width: 90%;
+	margin-bottom: 49px;
 }
 
 .link-know-more-red {
@@ -202,67 +209,92 @@ a {
 
 .garanties {
 	flex: 0 0 35%;
-	text-align: right;
+	padding-left: 40px;
+	padding-top: 2px;
 }
 
 .catalog {
+	padding: 0;
+	margin: 0;
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
 	width: 360px;
-}
-
-.list-advantage-one,
-.list-advantage-two,
-.list-advantage-three {
-	max-width: 100px;
-}
-
-.list-advantage-two {
-}
-
-.list-advantage-three {
+	padding-top: 13px;
+	width: 93%;
 }
 
 .percent {
-	font-size: 45px;	
+	color: #000000;
+	font-family: Roboto;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 10.06px;
+	margin-bottom: 35px;
 }
 
-.set-paragraph,
-.paragraph {
+.sup {
+	font-size: 59% !important;
+}
+
+.paragraph-little {
+	color: #283136;
+	font-family: Roboto;
 	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.style-for-percent {
+
+}
+
+.set-paragraph {
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 700;
 	line-height: 24px;
+	text-transform: uppercase;
+	padding-top: 32px;
+	padding-left: 17px;
 }
 
 .header-about-us {
-	font-weight: medium-italic;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	font-family: Roboto;
 	font-size: 45px;
+	font-weight: 500;
+	line-height: 45px;
+	padding-top: 35px;
+	padding-left: 19px;
 }
 
 .paragraph-about-us {
-	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	color: #283136;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-top: 29px;
+	padding-left: 20px;
+	padding-right: 70px;
 }
 
 .catalog-style {
 	list-style: none;
+	margin-bottom: 30px;
 }
 
-.catalog-style-image-one {
-	position: absolute;
-	left: 200px;
-	top: 1377px;
-}
-
-.catalog-style-image-two {
-	position: absolute;
-	left: 200px;
-	top: 1392px;
-}
-
-.catalog-style-image-three {
-	position: absolute;
-	left: 200px;
-	top: 1408px;
+.catalog-style-image {
+	vertical-align: middle;
+	margin-right: 6px;
 }
 
 .partners {
@@ -277,6 +309,10 @@ a {
 
 .col-partners-image {
 	flex: 0 0 25%;
+}
+
+.partners-logo {
+	opacity: 0.2;
 }
 
 .marker-on-map {
@@ -310,6 +346,7 @@ a {
 	height: 210px;
 	margin:0 auto;
 	margin-top: 70px;
+	margin-bottom: 6px;
 }
 
 .main-footer {
@@ -326,4 +363,38 @@ a {
 
 .ur-offer {
 	flex: 0 0 70%;
+}
+
+.line-btw {
+	width: 1160px;
+	border-bottom: 2px solid lightgray;
+	margin: 0 auto;
+}
+
+.dash {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	font-size: 34px;
+}
+
+.get-offers {
+	color: #000000;
+	font-family: "Roboto";
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	margin-top: 42px;
+	margin-left: 22px;;
+}
+
+.variant-develope {
+	color: #000000;
+	font-family: "Roboto";
+	font-weight: 400;
+	font-size: 16px;
+	margin-left: -18px;
+	margin-top: 29px;
 }
