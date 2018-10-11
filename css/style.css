@@ -23,7 +23,6 @@ a {
 	width: 1440px;
 	margin: 0 auto;
 	background-color: #fff;
-	margin: 0 auto;
 }
 
 .navigation {
@@ -58,9 +57,6 @@ a {
 	margin-right: 21px;
 }
 
-.menu-item {
-}
-
 .main-menu-basket {
 	list-style: none;
 	font-size: 16px;
@@ -93,6 +89,47 @@ a {
 .row {
 	display: flex;
 	flex-wrap: wrap;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.row-map {
+	margin-bottom: 80px;
+}
+
+.partners {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 32px;
+	list-style: none;
+	padding-left: 51px;
+	opacity: 0.2;
+	padding-bottom: 26px;
+}
+
+.col-partners-image {
+	flex: 0 0 25%;
+	max-width: 15%;
+	margin-right: 120px;
+}
+
+.col-partners-image:first-child {
+	margin-top: 16px;
+	margin-right: 123px;
+}
+
+.col-partners-image:nth-child(2) {
+	margin-right: 140px;
+}
+
+.col-partners-image:nth-child(3) {
+	margin-top: 19px;
+	margin-right: 132px;
+}
+
+.col-partners-image:nth-child(4) {
+	margin-top: 6px;
+	margin-right: 0;
 }
 
 .col-slider-one {
@@ -201,6 +238,7 @@ a {
 	margin: 0 auto;
 	display: flex;
 	padding: 40px;
+	margin-bottom: 6px;
 }
 
 .information {
@@ -297,22 +335,8 @@ a {
 	margin-right: 6px;
 }
 
-.partners {
-	width: 1200px;
-	margin: 0 auto;
-	display: flex;
-	flex-wrap: wrap;
-	padding: 30px 0 30px 0;
-	border-bottom: 2px solid lightgray;
-	margin-bottom: 80px;
-}
-
-.col-partners-image {
-	flex: 0 0 25%;
-}
-
 .partners-logo {
-	opacity: 0.2;
+	fill: #000;
 }
 
 .marker-on-map {
@@ -369,6 +393,13 @@ a {
 	width: 1160px;
 	border-bottom: 2px solid lightgray;
 	margin: 0 auto;
+}
+
+.line-sponsor {
+	width: 1160px;
+	border-bottom: 2px solid lightgray;
+	margin: 0 auto;
+	margin-bottom: 81px;
 }
 
 .dash {
