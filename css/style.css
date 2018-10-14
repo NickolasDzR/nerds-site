@@ -14,6 +14,18 @@ a {
   color: #000000;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  list-style: none;
+}
+
 .main-header {
 	height: 545px;
 	background-color: #eeeeee;
@@ -81,7 +93,7 @@ a {
 }
 
 .slider {
-	margin-left: 140px;
+	margin-left: 39px;
 	height: 170px;
 	padding-top: 9.5px;
 }
@@ -91,10 +103,6 @@ a {
 	flex-wrap: wrap;
 	margin: 0 auto;
 	max-width: 1200px;
-}
-
-.row-map {
-	margin-bottom: 80px;
 }
 
 .partners {
@@ -133,15 +141,15 @@ a {
 }
 
 .col-slider-one {
-	flex: 0 0 35%;
-	max-width: 35%;
+	flex: 0 0 40%;
+	max-width: 40%;
 }
 
 .col-slider-two {
-	flex: 0 0 65%;
-	max-width: 65%;
+	flex: 0 0 60%;
+	max-width: 60%;
 	margin-top: -15px;
-	margin-left: -24px;
+	margin-left: -48px;
 	z-index: 1;
 }
 
@@ -330,27 +338,22 @@ a {
 	margin-bottom: 30px;
 }
 
-.catalog-style-image {
-	vertical-align: middle;
-	margin-right: 6px;
-}
-
 .partners-logo {
 	fill: #000;
 }
 
 .marker-on-map {
 	position: absolute;
-	top: 1925px;
-	left: 980px;
+	top: 1933px;
+	left: 892px;
 }
 
 .how-to-find {
 	position: absolute;
-	top: 1900px;
-	left: 305px;
+	top: 1899px;
+	left: 212px;
 	height: 308px;
-	width: 320px;
+	width: 319px;
 	background-color: white;
 }
 
@@ -363,26 +366,26 @@ a {
 	color: white;
 	text-transform: uppercase;
 	font-size: 16px;
+	margin-top: 23px;
 }
 
 .about-us-block {
-	width: 220px;
-	height: 210px;
 	margin:0 auto;
-	margin-top: 70px;
+	margin-top: 48px;
 	margin-bottom: 6px;
+	padding: 0 50px;
 }
 
 .main-footer {
 	display: flex;
 	flex-wrap: wrap;
-	height: 217px;
+	height: 163px;
+	padding-top: 53px;
+	padding-left: 129px;
 }
 
 .social-image {
 	flex: 0 0 30%;
-	margin-top: 70px;
-	margin-left: 150px;
 }
 
 .ur-offer {
@@ -399,7 +402,7 @@ a {
 	width: 1160px;
 	border-bottom: 2px solid lightgray;
 	margin: 0 auto;
-	margin-bottom: 81px;
+	margin-bottom: 79px;
 }
 
 .dash {
@@ -428,4 +431,103 @@ a {
 	font-size: 16px;
 	margin-left: -18px;
 	margin-top: 29px;
+}
+
+circle[class^="circle-bottom"] {
+	fill: #e1e1e1;
+}
+
+.offer-friend {
+	color: #000000;
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 36px;
+	margin: 0;
+	padding: 0;
+	margin-top: 18px;
+	margin-left: 18px;
+}
+
+.discount {
+	color: #444444;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	margin: 0;
+	margin-top: 10px;
+	margin-left: 18px;
+}
+
+.image-insta {
+	position: absolute;
+	left: 422px;
+	top: 2357px;
+}
+
+.image-vk {
+	position: absolute;
+	left: 237px;
+	top: 2361px;
+}
+
+.image-fb {
+	position: absolute;
+	left: 336px;
+	top: 2357px;
+}
+
+svg[class^="image-"] {
+	fill: #ffffff;
+}
+
+.nerds-text {
+	color: #000000;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.our-adress,
+.our-phone {
+	color: #666666;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.our-adress {
+	margin-top: 23px;
+}
+
+.catalog-style-social {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	width: 260px;
+	list-style: none;
+	margin-left: 12px;
+	margin-top: 12px;
+}
+
+.social-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 79px;
+	height: 79px;
+	background-color: #e1e1e1;
+	border-radius: 50%;
+	list-style: none;
+}
+
+.row-map {
+	background-image: url(../img/map.jpg);
 }
