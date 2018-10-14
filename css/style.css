@@ -31,6 +31,11 @@ a {
 	background-color: #eeeeee;
 }
 
+.main-header-catalog {
+	height: 356px;
+	background-color: #eeeeee;
+}
+
 .container {
 	width: 1440px;
 	margin: 0 auto;
@@ -557,4 +562,171 @@ svg[class^='image-'] {
 	max-width: 45.5%;
 	text-align: right;
 	margin-top: 35px;
+}
+
+.how-we-work {
+	color: #000000;
+	font-family: Roboto;
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 55px;
+	text-align: center;
+	margin-top: 56px;
+	margin-left: -3px;
+}
+
+.filter-conteiner span {
+	color: #283136;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.sorts {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.costs {
+	flex: 0 0 30%;
+	max-width: 30%;
+}
+
+.to-sort {
+	flex: 0 0 30%;
+	max-width: 30%;
+}
+
+.crumps {
+	flex: 0 0 30%;
+	max-width: 30%;
+}
+
+.sort-for-costs li {
+	display: inline-block;
+	list-style: none;
+}
+
+.col-3 {
+	flex: 0 0 10%;
+	max-width: 10%;
+}
+
+.controler-position {
+	list-style: none;
+	display: inline-block;
+}
+
+.style-input {
+	width: 80px;
+	height: 21px;
+	background-color: #eeeeee;
+	border: none;
+}
+
+.filter-find-row {
+	flex: 0 0 30%;
+	max-width: 30%;
+}
+
+.ready-templ {
+	list-style: none;
+}
+
+.col-2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.price-controls {
+	font-size: 0;
+}
+
+.main-part {
+	flex: 0 0 75%;
+	max-width: 75%;
+}
+
+.ready-templ{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-item {
+  margin: 0;
+  padding: 0;
+	border: none;
+	width: 265px;
+}
+
+.range-filter {
+  width: 265px;
+  margin-top: 49px;
+}
+
+.range-controls {
+	position: relative;
+  height: 41px;
+  background-color: #f1f1f1;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding-top: 41px;
+	padding-right: 21px;
+	padding-left: 21px;
+}
+
+.range-controls .scale {
+  height: 2px;
+  background: #d7dcde;
+}
+
+.range-controls .bar {
+  width: 70%;
+  height: 2px;
+  background: #00ca74;
+}
+
+.range-controls .toggle {
+	position: absolute;
+  top: 31px;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  padding: 0;
+  border: 8px solid #ffffff;
+	background-color: #ababab;
+	border-radius: 50%;
+	box-shadow: 0 2px 1px 0 #cfcfcf;
+	cursor: pointer;
+}
+
+.range-controls .toggle-min {
+  left: 18px;
+}
+
+.range-controls .toggle-max {
+  left: 160px;
+}
+
+.price-controls label {
+  display: inline-block;
+  width: 50%;
+}
+
+.price-controls input {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+	color: #283136;
+	width: 60px;
+	padding: 8px 10px;
+	border: none;
+  border-radius: 5px;
+	background: #f1f1f1;
+	margin-left: 10px;
+}
+
+.max-price {
+  text-align: right;
 }
