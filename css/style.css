@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", "Arial", sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 14px;
   color: #000000;
   background-color: lightblue;
@@ -42,7 +42,7 @@ a {
 	flex-wrap: wrap;
 	background-color: #eee;
 	position: relative;
-	padding: 49px 140px 20px 140px;
+	padding: 50px 140px 20px 140px;
 }
 
 .nerds-logo {
@@ -74,8 +74,8 @@ a {
 	font-size: 16px;
 	color: #fff;
 	text-transform: uppercase;
-	margin-top: 33px;
-	margin-left: 65px;
+	margin-top: 31px;
+	margin-left: 67px;
 }
 
 .menu-item-basket {
@@ -95,7 +95,7 @@ a {
 .slider {
 	margin-left: 39px;
 	height: 170px;
-	padding-top: 9.5px;
+	padding-top: 10.5px;
 }
 
 .row {
@@ -334,6 +334,7 @@ a {
 }
 
 .catalog-style {
+	position: relative;
 	list-style: none;
 	margin-bottom: 30px;
 }
@@ -343,15 +344,11 @@ a {
 }
 
 .marker-on-map {
-	position: absolute;
-	top: 1933px;
-	left: 892px;
 }
 
 .how-to-find {
-	position: absolute;
-	top: 1899px;
-	left: 212px;
+	flex: 0 0 24.6%;
+	max-width: 24.6%;
 	height: 308px;
 	width: 319px;
 	background-color: white;
@@ -366,22 +363,17 @@ a {
 	color: white;
 	text-transform: uppercase;
 	font-size: 16px;
-	margin-top: 23px;
+	margin-top: 22px;
 }
 
 .about-us-block {
 	margin:0 auto;
 	margin-top: 48px;
 	margin-bottom: 6px;
-	padding: 0 50px;
+	padding: 0 51px;
 }
 
 .main-footer {
-	display: flex;
-	flex-wrap: wrap;
-	height: 163px;
-	padding-top: 53px;
-	padding-left: 129px;
 }
 
 .social-image {
@@ -402,7 +394,7 @@ a {
 	width: 1160px;
 	border-bottom: 2px solid lightgray;
 	margin: 0 auto;
-	margin-bottom: 79px;
+	margin-bottom: 80px;
 }
 
 .dash {
@@ -414,7 +406,7 @@ a {
 
 .get-offers {
 	color: #000000;
-	font-family: "Roboto";
+	font-family: 'Roboto';
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 16px;
@@ -426,14 +418,14 @@ a {
 
 .variant-develope {
 	color: #000000;
-	font-family: "Roboto";
+	font-family: 'Roboto';
 	font-weight: 400;
 	font-size: 16px;
-	margin-left: -18px;
+	margin-left: 16px;
 	margin-top: 29px;
 }
 
-circle[class^="circle-bottom"] {
+circle[class^='circle-bottom'] {
 	fill: #e1e1e1;
 }
 
@@ -478,7 +470,7 @@ circle[class^="circle-bottom"] {
 	top: 2357px;
 }
 
-svg[class^="image-"] {
+svg[class^='image-'] {
 	fill: #ffffff;
 }
 
@@ -502,6 +494,7 @@ svg[class^="image-"] {
 
 .our-adress {
 	margin-top: 23px;
+	margin-bottom: 18px;
 }
 
 .catalog-style-social {
@@ -529,5 +522,39 @@ svg[class^="image-"] {
 }
 
 .row-map {
+	display: flex;
+	flex-wrap: wrap;
+	height: 164px;
+	padding-top: 56px;
+	padding-left: 129px;
+}
+
+.catalog-style::before{
+	background-image: url(../img/line.svg);
+	background-repeat: no-repeat;
+	content: "";
+	position: absolute;
+	top: 8px;
+	left: -35px;
+	width: 50px;
+	height: 10px;
+}
+
+.container-map {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
 	background-image: url(../img/map.jpg);
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	min-height: 416px;
+	padding-top: 54px;
+	padding-left: 140px;
+}
+
+.image-container {
+	flex: 0 0 45.5%;
+	max-width: 45.5%;
+	text-align: right;
+	margin-top: 35px;
 }
