@@ -643,6 +643,11 @@ svg[class^='image-'] {
 	font-size: 0;
 }
 
+.price-controls label{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
 .main-part {
 	flex: 0 0 75%;
 	max-width: 75%;
@@ -658,6 +663,14 @@ svg[class^='image-'] {
   padding: 0;
 	border: none;
 	width: 265px;
+}
+
+.grid {
+	margin: 0;
+  padding: 0;
+	border: none;
+	width: 265px;
+	margin-top: 30px;
 }
 
 .range-filter {
@@ -682,9 +695,10 @@ svg[class^='image-'] {
 }
 
 .range-controls .bar {
-  width: 70%;
+  width: 30%;
   height: 2px;
-  background: #00ca74;
+	background: #00ca74;
+	margin-left: 42px;
 }
 
 .range-controls .toggle {
@@ -702,11 +716,11 @@ svg[class^='image-'] {
 }
 
 .range-controls .toggle-min {
-  left: 18px;
+  left: 50px;
 }
 
 .range-controls .toggle-max {
-  left: 160px;
+  left: 110px;
 }
 
 .price-controls label {
@@ -729,4 +743,14 @@ svg[class^='image-'] {
 
 .max-price {
   text-align: right;
+}
+
+.ready-templ-one {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.column-li,
+.filter-grid {
+	list-style: none;
 }

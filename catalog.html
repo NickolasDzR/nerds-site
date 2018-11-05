@@ -38,131 +38,50 @@
 			<h1 class='how-we-work'>Магазин готовых шаблонов</h1>
 		</header>
 		<main class='main-conteiner'>
-				<div class="costs">Стоимость:</div>
-				<div class="to-sort">Сортировать</div>
-				<div class="crumps">
-					<div class='style-for-list'>
-						<ul class="sort-for-costs">
-							<li><a class="for-costs" href='#cost'>По цене</a></li>
-							<li><a class="for-type" href='#type'>По типу</a></li>
-							<li><a class="for-name" href='#rank'>По Названию</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class='col-3'>
-					<ul>
-						<li class="controler-position">
-							<a href="#rank">
-								<span class="visually-hidden">По возростанию</span>
-								<svg class="up-button" xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
-									<path d="M5.5 0L0 10h11z" />
-								</svg>
-							</a>
-						</li>
-						<li class="controler-position">
-							<a href="#rank">
-								<span class="visually-hidden">По убыванию</span>
-								<svg class="down-button" xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11
-							10">
-									<path d="M5.5 0L0 10h11z" />
-								</svg>
-						</li>
-					</ul>
-					</ul>
-				</div>
-			</section>
-			<section class='col-2'>
-				<div class="price-controls">
-					<label class="min-price">От
-						<input class="style-input" type="text" name="min-price" value="0">
-					</label>
-					<label class="max-price">До
-						<input class="style-input" type="text" name="max-price" value="15000">
-					</label>
-					<div class="filter-find-row">
-						<div class="variant-find-one">
-							<h3 class="infrostructure">Сетка</h3>
-							<p class="filter-conteiner">
-								<label class="filter-checkbox" id="adaptive">
-									<input class="visually-hidden" type="checkbox" name="adaptive" id="input-adaptive" checked>
-									<span class="checkbox-indicator"></span>
-									Адаптивная</label>
-							</p>
-							<p class="filter-conteiner">
-								<label class="filter-checkbox" id="fix">
-									<input class="visually-hidden" type="checkbox" name="fix" id="input-fix">
-									<span class="checkbox-indicator"></span>
-									Фиксированая</label>
-							</p>
-							<p class="filter-conteiner">
-								<label class="filter-checkbox" id="rubber">
-									<input class="visually-hidden" type="checkbox" name="rubber" id="input-rubber">
-									<span class="checkbox-indicator"></span>
-									Резиновая
-								</label>
-							</p>
+
+
+			<form method='get' action='https://echo.htmlacademy.ru'>
+			<fieldset class='filter-item'>
+				<legend>Стоимость:</legend>
+				<div class='range-filter'>
+					<div class="range-controls">
+						<div class="scale">
+								<div class="bar"></div>
+							</div>
+							<div class="scale">
+									<div class="bar"></div>
+								</div>
+								<div class="toggle toggle-min"></div>
+								<div class="toggle toggle-max"></div>
 						</div>
-						<div class="variant-find-two">
-							<h3 class="infrostructure">Особенности</h3>
-							<p class="filter-conteiner">
-								<label class="filter-checkbox" id="slider">
-									<input class="visually-hidden" type="checkbox" name="slider" id="input-slider" checked>
-									<span class="checkbox-indicator"></span>
-									Слайдер</label>
-							</p>
-							<p class="filter-conteiner">
-								<label class="filter-checkbox" id="block-advantage">
-									<input class="visually-hidden" type="checkbox" name="block-advantage" id="block-advantage">
-									<span class="checkbox-indicator"></span>
-									Блок преимуществ</label>
-							</p>
-							<p class="filter-conteiner">
-								<label class="filter-checkbox" id="new">
-									<input class="visually-hidden" type="checkbox" name="new" id="input-new">
-									<span class="checkbox-indicator"></span>
-									Новости
-								</label>
-							</p>
-							<p class="filter-conteiner">
-								<label class="filter-checkbox" id="galery">
-									<input class="visually-hidden" type="checkbox" name="galery" id="input-galery">
-									<span class="checkbox-indicator"></span>
-									Галерея
-								</label>
-							</p>
-							<p class="filter-conteiner">
-								<label class="filter-checkbox" id="basket">
-									<input class="visually-hidden" type="checkbox" name="basket" id="input-basket">
-									<span class="checkbox-indicator"></span>
-									Корзина
-								</label>
-							</p>
+						<div class="price-controls">
+								<label class="min-price">от <input name="min-price" type="text" value="0"></label>
+								<label class="max-price">до <input name="max-price" type="text" value="15000"></label>
 						</div>
-					</div>
 				</div>
-				<section class='main-part'>
-					<ul class='ready-templ-one'>
-						<li class='column-li'>
-							<img src="img/sedona.jpg" alt='sedona-master' width='360' height='576'>
+			</fieldset>
+
+			<fieldset class='grid'>
+				<legend>Сетка:</legend>
+					<ul class='filter-grid'>
+						<li>
+							<input class='layout-adaptive' class='filter-radio' type='radio' name='layout' value='adaptive' checked='checked'>
+							<label for='layout-adaptive'>Адаптивная</label>
 						</li>
-						<li class='column-li'>
-							<img src="img/pink.jpg" alt='pink' width='360' height='576'>
+						<li>
+								<input class='layout-fix' class='filter-radio' type='radio' name='layout' value='fix' checked='checked'>
+								<label for='layout-fix'>Фиксированная</label>
 						</li>
-						<li class='column-li'>
-							<img src="img/barbershop.jpg" alt='barbershop' width='360' height='576'>
-						</li>
-						<li class='column-li'>
-							<img src="img/mishka.jpg" alt='mishka' width='360' height='576'>
-						</li>
-						<li class='column-li'>
-							<img src="img/aplus.jpg" alt='aplus' width='360' height='576'>
-						</li>
-						<li class='column-li'>
-							<img src="img/kvast.jpg" alt='kvast' width='360' height='576'>
+						<li>
+								<input class='layout-rubber' class='filter-radio' type='radio' name='layout' value='rubber' checked='checked'>
+								<label for='layout-rubber'>Резиновая</label>
 						</li>
 					</ul>
-				</section>
-			</section>
+			</fieldset>
+
+			</form>
+
+
 		</main>
 		<footer class='main-footer'>
 			<div class='container-map'>
