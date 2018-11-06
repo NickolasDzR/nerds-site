@@ -658,21 +658,6 @@ svg[class^='image-'] {
   flex-wrap: wrap;
 }
 
-.filter-item {
-  margin: 0;
-  padding: 0;
-	border: none;
-	width: 265px;
-}
-
-.grid {
-	margin: 0;
-  padding: 0;
-	border: none;
-	width: 265px;
-	margin-top: 30px;
-}
-
 .range-filter {
   width: 265px;
   margin-top: 49px;
@@ -750,7 +735,6 @@ svg[class^='image-'] {
 	flex-wrap: wrap;
 }
 
-.column-li,
-.filter-grid {
+.column-li {
 	list-style: none;
 }

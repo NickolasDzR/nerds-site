@@ -63,20 +63,27 @@
 
 			<fieldset class='grid'>
 				<legend>Сетка:</legend>
-					<ul class='filter-grid'>
-						<li>
-							<input class='layout-adaptive' class='filter-radio' type='radio' name='layout' value='adaptive' checked='checked'>
-							<label for='layout-adaptive'>Адаптивная</label>
-						</li>
-						<li>
-								<input class='layout-fix' class='filter-radio' type='radio' name='layout' value='fix' checked='checked'>
-								<label for='layout-fix'>Фиксированная</label>
-						</li>
-						<li>
-								<input class='layout-rubber' class='filter-radio' type='radio' name='layout' value='rubber' checked='checked'>
-								<label for='layout-rubber'>Резиновая</label>
-						</li>
-					</ul>
+				<div class="variant-find-two">
+						<h3 class="type-housing">Тип жилья</h3>
+						<p class="filter-conteiner">
+							<label class="filter-checkbox" id="hostel">
+							<input class="visually-hidden" type="checkbox" name="hostel" id="input-hostel" checked>
+							<span class="checkbox-indicator"></span>
+							Адаптированная</label>
+						</p>
+						<p class="filter-conteiner">
+							<label class="filter-checkbox" id="motel">
+							<input class="visually-hidden" type="checkbox" name="motel" id="input-motel" checked>
+							<span class="checkbox-indicator"></span>
+							Фиксированная</label>
+						</p>
+						<p class="filter-conteiner">
+							<label class="filter-checkbox" id="apartment">
+							<input class="visually-hidden" type="checkbox" name="apartment" id="input-apartment" disabled>
+							<span class="checkbox-indicator"></span>
+							Резиновая</label>
+						</p>
+					</div>
 			</fieldset>
 
 			</form>
