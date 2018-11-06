@@ -738,3 +738,175 @@ svg[class^='image-'] {
 .column-li {
 	list-style: none;
 }
+
+.filter-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 28.5px 0 0 0.7px;
+}
+
+.filter-checkbox {
+  position: relative;
+  padding: 1.2px 0 0 41px;
+  cursor: pointer;
+}
+
+input+.checkbox-indicator {
+  position: absolute;
+  top: -2.5px;
+  left: 1px;
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/radio-off.svg);
+}
+
+input+.checkbox-square {
+  position: absolute;
+  top: -2.5px;
+  left: 1px;
+  width: 23px;
+  height: 23px;
+  background-image: url(../img/checkbox-off.svg);
+}
+
+input:checked+.checkbox-square {
+  position: absolute;
+  top: -2.5px;
+  left: 1px;
+  width: 23px;
+  height: 23px;
+  background-image: none;
+}
+
+input:checked+.checkbox-indicator {
+  position: absolute;
+  top: -2.5px;
+  left: 1px;
+  width: 25px;
+  height: 25px;
+  background-image: none;
+}
+
+input:checked+.checkbox-indicator::before,
+input:checked+.checkbox-indicator::after {
+  content: url(../img/radio-on.svg);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 25px;
+  height: 25px;
+  background: none;
+}
+
+input:checked+.checkbox-square::before,
+input:checked+.checkbox-square::after {
+  content: url(../img/checkbox-on.svg);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 27px;
+  height: 23px;
+  background: none;
+}
+
+input:disabled+.checkbox-indicator {
+  opacity: 0.5;
+}
+
+input:disabled+.checkbox-square {
+  opacity: 0.5;
+}
+
+[type="checkbox"]:focus+.checkbox-indicator {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 5px #4D90FE;
+  box-shadow: 0px 0px 5px #4D90FE;
+  border-radius: 40px;
+}
+
+[type="checkbox"]:focus+.checkbox-square {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 5px #4D90FE;
+  box-shadow: 0px 0px 5px #4D90FE;
+}
+
+.filter-find-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+fieldset {
+	border: none;
+}
+
+.show-variants {
+	width: 260px;
+	height: 50px;
+	background-color: #eeeeee;
+	border: none;
+}
+
+.word-button {
+	width: 83px;
+	height: 13px;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18px;
+}
+
+.col-12{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.left-section {
+	flex: 0 0 30%;
+	max-width: 30%;
+}
+
+.right-section {
+	flex: 0 0 70%;
+	max-width: 70%;
+}
+
+.sorting {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sorting-word {
+	color: #000000;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 18px;
+}
+
+.editing-liststyle {
+	list-style: none;
+}
+
+.controller-position {
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+}
+
+.down-button {
+  margin-left: 8px;
+  transform: rotate(180deg);
+}
+
+.list-for-sorting {
+	display: inline-block;
+}
+
+.liststyle-for-templates {
+	list-style: none;
+}
+
+.our-templates-li {
+	display: inline-block;
+}

@@ -39,56 +39,131 @@
 		</header>
 		<main class='main-conteiner'>
 
-
-			<form method='get' action='https://echo.htmlacademy.ru'>
-			<fieldset class='filter-item'>
-				<legend>Стоимость:</legend>
-				<div class='range-filter'>
-					<div class="range-controls">
-						<div class="scale">
-								<div class="bar"></div>
-							</div>
-							<div class="scale">
-									<div class="bar"></div>
+			<section class='col-12'>
+				<div class='left-section'>
+					<form method='get' action='https://echo.htmlacademy.ru'>
+						<fieldset class='filter-item'>
+							<legend>Стоимость:</legend>
+							<div class='range-filter'>
+								<div class="range-controls">
+									<div class="scale">
+										<div class="bar"></div>
+									</div>
+									<div class="scale">
+										<div class="bar"></div>
+									</div>
+									<div class="toggle toggle-min"></div>
+									<div class="toggle toggle-max"></div>
 								</div>
-								<div class="toggle toggle-min"></div>
-								<div class="toggle toggle-max"></div>
-						</div>
-						<div class="price-controls">
-								<label class="min-price">от <input name="min-price" type="text" value="0"></label>
-								<label class="max-price">до <input name="max-price" type="text" value="15000"></label>
-						</div>
+								<div class="price-controls">
+									<label class="min-price">от <input name="min-price" type="text" value="0"></label>
+									<label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+								</div>
+							</div>
+						</fieldset>
+
+						<fieldset class='grid'>
+							<legend>Сетка:</legend>
+							<div class="variant-find-two">
+								<p class="filter-conteiner">
+									<label class="filter-checkbox" id="adaptive">
+										<input class="visually-hidden" type="checkbox" name="adaptive" id="input-adaptive" checked>
+										<span class="checkbox-indicator"></span>
+										Адаптированная</label>
+								</p>
+								<p class="filter-conteiner">
+									<label class="filter-checkbox" id="fix">
+										<input class="visually-hidden" type="checkbox" name="fix" id="input-fix" checked>
+										<span class="checkbox-indicator"></span>
+										Фиксированная</label>
+								</p>
+								<p class="filter-conteiner">
+									<label class="filter-checkbox" id="rubber">
+										<input class="visually-hidden" type="checkbox" name="rubber" id="input-rubber" disabled>
+										<span class="checkbox-indicator"></span>
+										Резиновая</label>
+								</p>
+							</div>
+						</fieldset>
+
+						<fieldset class='grid'>
+							<legend>Особенности</legend>
+							<div class="variant-find-two">
+								<p class="filter-conteiner">
+									<label class="filter-checkbox" id="slider">
+										<input class="visually-hidden" type="checkbox" name="slider" id="input-slider" checked>
+										<span class="checkbox-square"></span>
+										Слайдер</label>
+								</p>
+								<p class="filter-conteiner">
+									<label class="filter-checkbox" id="advantage-block">
+										<input class="visually-hidden" type="checkbox" name="advantage-block" id="input-advantage-block" checked>
+										<span class="checkbox-square"></span>
+										Блок преимуществ</label>
+								</p>
+								<p class="filter-conteiner">
+									<label class="filter-checkbox" id="news">
+										<input class="visually-hidden" type="checkbox" name="news" id="input-news">
+										<span class="checkbox-square"></span>
+										Новости</label>
+								</p>
+								<p class="filter-conteiner">
+									<label class="filter-checkbox" id="galery">
+										<input class="visually-hidden" type="checkbox" name="galery" id="input-galery">
+										<span class="checkbox-square"></span>
+										Галерея</label>
+								</p>
+								<p class="filter-conteiner">
+									<label class="filter-checkbox" id="basket">
+										<input class="visually-hidden" type="checkbox" name="basket" id="input-basket" disabled>
+										<span class="checkbox-square"></span>
+										Корзина</label>
+								</p>
+							</div>
+						</fieldset>
+						<button class='show-variants'><span class='word-button'>Показать</span></button>
+					</form>
 				</div>
-			</fieldset>
-
-			<fieldset class='grid'>
-				<legend>Сетка:</legend>
-				<div class="variant-find-two">
-						<h3 class="type-housing">Тип жилья</h3>
-						<p class="filter-conteiner">
-							<label class="filter-checkbox" id="hostel">
-							<input class="visually-hidden" type="checkbox" name="hostel" id="input-hostel" checked>
-							<span class="checkbox-indicator"></span>
-							Адаптированная</label>
-						</p>
-						<p class="filter-conteiner">
-							<label class="filter-checkbox" id="motel">
-							<input class="visually-hidden" type="checkbox" name="motel" id="input-motel" checked>
-							<span class="checkbox-indicator"></span>
-							Фиксированная</label>
-						</p>
-						<p class="filter-conteiner">
-							<label class="filter-checkbox" id="apartment">
-							<input class="visually-hidden" type="checkbox" name="apartment" id="input-apartment" disabled>
-							<span class="checkbox-indicator"></span>
-							Резиновая</label>
-						</p>
+				<div class='right-section'>
+					<div class='sorting'>
+						<span class='sorting-word'>Сортировать</span>
+						<div class='sorting-list'>
+							<ul class='editing-liststyle'>
+								<li class='list-for-sorting'><a href='for-cost'>По цене</a></li>
+								<li class='list-for-sorting'><a href='for-type'>По типу</a></li>
+								<li class='list-for-sorting'><a href='for-ascending'>По названию</a></li>
+								<li class='list-for-sorting'>
+									<a href="#rank">
+										<span class='visually-hidden'>Убывание</span>
+										<svg class="up-button" xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+											<path d="M5.5 0L0 10h11z" />
+										</svg>
+									</a>
+								</li>
+								<li class='list-for-sorting'>
+									<a href="#rank">
+										<span class='visually-hidden'>Возростание</span>
+										<svg class="down-button" xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11
+								10">
+											<path d="M5.5 0L0 10h11z" />
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
-			</fieldset>
-
-			</form>
-
-
+					<div class='our-templates'>
+						<ul class='liststyle-for-templates'>
+							<li class='our-templates-li'><img src='img/img-sedona.png' alt='sedona'></li>
+							<li class='our-templates-li'><img src='img/img-pink.png' alt='pink'></li>
+							<li class='our-templates-li'><img src='img/img-barbershop.png' alt='barbershop'></li>
+							<li class='our-templates-li'><img src='img/img-mishka.png' alt='mishka'></li>
+							<li class='our-templates-li'><img src='img/img-aplus.png' alt='aplus'></li>
+							<li class='our-templates-li'><img src='img/img-kvast.png' alt='kvast'></li>
+						</ul>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class='main-footer'>
 			<div class='container-map'>
@@ -101,7 +176,7 @@
 					</div>
 				</div>
 				<div class='image-container'>
-					<img class='marker-on-map' src='img/map-marker.png' width='231' height='190'>
+					<img class='marker-on-map' src='img/map-marker.png' width='231' height='190' alt='marker-for-map'>
 				</div>
 			</div>
 			<div class='row-map'>
@@ -139,6 +214,6 @@
 				</div>
 			</div>
 		</footer>
+	</div>
 </body>
-
 </html>
