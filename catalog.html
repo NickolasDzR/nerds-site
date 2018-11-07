@@ -43,7 +43,7 @@
 				<div class='left-section'>
 					<form method='get' action='https://echo.htmlacademy.ru'>
 						<fieldset class='filter-item'>
-							<legend>Стоимость:</legend>
+							<legend class='for-cost'>Стоимость:</legend>
 							<div class='range-filter'>
 								<div class="range-controls">
 									<div class="scale">
@@ -129,13 +129,14 @@
 						<span class='sorting-word'>Сортировать</span>
 						<div class='sorting-list'>
 							<ul class='editing-liststyle'>
-								<li class='list-for-sorting'><a href='for-cost'>По цене</a></li>
-								<li class='list-for-sorting'><a href='for-type'>По типу</a></li>
-								<li class='list-for-sorting'><a href='for-ascending'>По названию</a></li>
+								<li class='list-for-sorting'><a class='sorting-for-cost' href='for-cost'>По цене</a></li>
+								<li class='list-for-sorting'><a class='sorting-for-type' href='for-type'>По типу</a></li>
+								<li class='list-for-sorting'><a class='sorting-for-name' href='for-ascending'>По названию</a></li>
 								<li class='list-for-sorting'>
 									<a href="#rank">
 										<span class='visually-hidden'>Убывание</span>
-										<svg class="up-button" xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
+										<svg class="down-button" xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11
+								10">
 											<path d="M5.5 0L0 10h11z" />
 										</svg>
 									</a>
@@ -143,8 +144,7 @@
 								<li class='list-for-sorting'>
 									<a href="#rank">
 										<span class='visually-hidden'>Возростание</span>
-										<svg class="down-button" xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11
-								10">
+										<svg class="up-button" xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
 											<path d="M5.5 0L0 10h11z" />
 										</svg>
 									</a>
@@ -152,16 +152,77 @@
 							</ul>
 						</div>
 					</div>
+					
 					<div class='our-templates'>
 						<ul class='liststyle-for-templates'>
-							<li class='our-templates-li'><img src='img/img-sedona.png' alt='sedona'></li>
-							<li class='our-templates-li'><img src='img/img-pink.png' alt='pink'></li>
-							<li class='our-templates-li'><img src='img/img-barbershop.png' alt='barbershop'></li>
-							<li class='our-templates-li'><img src='img/img-mishka.png' alt='mishka'></li>
-							<li class='our-templates-li'><img src='img/img-aplus.png' alt='aplus'></li>
-							<li class='our-templates-li'><img src='img/img-kvast.png' alt='kvast'></li>
+							<li class='our-templates-li'>
+								<img src='img/img-sedona.png' alt='sedona'>
+								<div class='info-about-temp'>
+									<h3 class='name-temp'>Sedona</h3>
+									<p class='about-temp'>Информационный сайт для туристов</p>
+									<a class='link-for-buy' href=#link-wherever>9 900 РУБ.</a>
+								</div>
+							</li>
+							<li class='our-templates-li'>
+								<img src='img/img-pink.png' alt='pink'>
+								<div class='info-about-temp'>
+									<h3 class='name-temp'>PINK</h3>
+									<p class='about-temp'>Полезное приложение для жизни</p>
+									<a class='link-for-buy' href=#link-wherever>9 100 РУБ.</a>
+								</div>
+							</li>
+							<li class='our-templates-li'>
+								<img src='img/img-barbershop.png' alt='barbershop'>
+								<div class='info-about-temp'>
+									<h3 class='name-temp'>BARBERSHOP</h3>
+									<p class='about-temp'>Стильная стрижка в барбершопе</p>
+									<a class='link-for-buy' href=#link-wherever>8 500 РУБ.</a>
+								</div>
+							</li>
+							<li class='our-templates-li'>
+								<img src='img/img-mishka.png' alt='mishka'>
+								<div class='info-about-temp'>
+									<h3 class='name-temp'>Mishka</h3>
+									<p class='about-temp'>Мягкие игрушки ручной работы</p>
+									<a class='link-for-buy' href=#link-wherever>8 000 РУБ.</a>
+								</div>
+							</li>
+							<li class='our-templates-li'>
+								<img src='img/img-aplus.png' alt='aplus'>
+								<div class='info-about-temp'>
+									<h3 class='name-temp'>А плюс</h3>
+									<p class='about-temp'>Лучшее онлайн обучение</p>
+									<a class='link-for-buy' href=#link-wherever>7 250 РУБ.</a>
+								</div>
+							</li>
+							<li class='our-templates-li'>
+								<img src='img/img-kvast.png' alt='kvast'>
+								<div class='info-about-temp'>
+									<h3 class='name-temp'>КВАСТ</h3>
+									<p class='about-temp'>Алкогольные напитки и не только</p>
+									<a class='link-for-buy' href=#link-wherever>6 300 РУБ.</a>
+								</div>
+							</li>
 						</ul>
 					</div>
+
+					<div>
+						<ul class='number-page'>
+							<li class='indent'>
+								<a class='link-firstpage' href='#wherever-link'>1</a>
+							</li>
+							<li class='indent'>
+								<a class='link-nextpage' href='#wherever-link'>2</a>
+							</li>
+							<li class='indent'>
+								<a class='link-nextpage' href='#wherever-link'>3</a>
+							</li>
+							<li>
+								<a class='nextpage' href='#wherever-link'>Следующая</a>
+							</li>
+						</ul>
+					</div>
+
 				</div>
 			</section>
 		</main>
@@ -216,4 +277,5 @@
 		</footer>
 	</div>
 </body>
+
 </html>
