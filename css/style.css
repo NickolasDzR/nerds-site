@@ -26,6 +26,10 @@ a {
   list-style: none;
 }
 
+.main-conteiner {
+	margin-bottom: 36px;
+}
+
 .main-header {
 	height: 545px;
 	background-color: #eeeeee;
@@ -34,7 +38,7 @@ a {
 .main-header-catalog {
 	height: 356px;
 	background-color: #eeeeee;
-	margin-bottom: 54px;
+	margin-bottom: 55px;
 }
 
 .container {
@@ -660,8 +664,8 @@ svg[class^='image-'] {
 }
 
 .range-filter {
-  width: 265px;
-  margin-top: 49px;
+  width: 260px;
+  margin-top: 43px;
 }
 
 .range-controls {
@@ -669,22 +673,22 @@ svg[class^='image-'] {
   height: 41px;
   background-color: #f1f1f1;
 	border-radius: 5px;
-	margin-bottom: 10px;
+	margin-bottom: 12px;
 	padding-top: 41px;
 	padding-right: 21px;
 	padding-left: 21px;
 }
 
 .range-controls .scale {
-  height: 2px;
+  height: 1px;
   background: #d7dcde;
 }
 
 .range-controls .bar {
-  width: 30%;
-  height: 2px;
+	width: 63%;
+	height: 1px;
 	background: #00ca74;
-	margin-left: 42px;
+	margin-left: 10px;
 }
 
 .range-controls .toggle {
@@ -702,11 +706,11 @@ svg[class^='image-'] {
 }
 
 .range-controls .toggle-min {
-  left: 50px;
+  left: 19px;
 }
 
 .range-controls .toggle-max {
-  left: 110px;
+  left: 161px;
 }
 
 .price-controls label {
@@ -715,16 +719,16 @@ svg[class^='image-'] {
 }
 
 .price-controls input {
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 16px;
-  text-align: center;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
 	color: #283136;
 	width: 60px;
-	padding: 8px 10px;
+	padding: 10px 10px;
 	border: none;
-  border-radius: 5px;
+	border-radius: 5px;
 	background: #f1f1f1;
-	margin-left: 10px;
+	margin-left: 6px;
 }
 
 .max-price {
@@ -743,19 +747,27 @@ svg[class^='image-'] {
 .filter-conteiner {
   display: flex;
   flex-wrap: wrap;
-  margin: 28.5px 0 0 0.7px;
+  margin: 0;
+	padding: 0;
+	margin-bottom: 19px;
+	margin-left: -4px;
 }
 
 .filter-checkbox {
   position: relative;
   padding: 1.2px 0 0 41px;
-  cursor: pointer;
+	cursor: pointer;
+	color: #283136;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
 }
 
 input+.checkbox-indicator {
   position: absolute;
-  top: -2.5px;
-  left: 1px;
+  top: -2px;
+  left: 6px;
   width: 25px;
   height: 25px;
   background-image: url(../img/radio-off.svg);
@@ -763,8 +775,8 @@ input+.checkbox-indicator {
 
 input+.checkbox-square {
   position: absolute;
-  top: -2.5px;
-  left: 1px;
+  top: 0px;
+  left: 6px;
   width: 23px;
   height: 23px;
   background-image: url(../img/checkbox-off.svg);
@@ -772,8 +784,8 @@ input+.checkbox-square {
 
 input:checked+.checkbox-square {
   position: absolute;
-  top: -2.5px;
-  left: 1px;
+  top: 0px;
+  left: 6px;
   width: 23px;
   height: 23px;
   background-image: none;
@@ -781,8 +793,8 @@ input:checked+.checkbox-square {
 
 input:checked+.checkbox-indicator {
   position: absolute;
-  top: -2.5px;
-  left: 1px;
+  top: -2px;
+  left: 6px;
   width: 25px;
   height: 25px;
   background-image: none;
@@ -841,10 +853,19 @@ fieldset {
 }
 
 .show-variants {
-	width: 260px;
+	width: 259px;
 	height: 50px;
-	background-color: #eeeeee;
+	background-color: #eee;
 	border: none;
+	margin-top: 4px;
+	margin-left: 14px;
+	border-radius: 3px;
+	color: #000000;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 18px;
+	text-transform: uppercase;
 }
 
 .word-button {
@@ -878,11 +899,15 @@ fieldset {
 
 .sorting {
 	display: flex;
-	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-left: 40px;
+	padding-right: 4px;
 }
 
 .editing-liststyle {
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .controller-position {
@@ -904,11 +929,13 @@ fieldset {
 	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
 }
 
 .our-templates-li {
 	position: relative;
-	margin-bottom: 30px;
+	margin-bottom: 29px;
 }
 
 .our-templates-li:nth-child(2n+1) {
@@ -931,7 +958,7 @@ fieldset {
   left: 0px;
   top: 386px;
   width: 100%;
-  padding: 23px 0px 62px;
+  padding: 26px 0px 62px;
   background-color: #eeeeee;
 	text-align: center;
 }
@@ -947,14 +974,18 @@ fieldset {
 	font-weight: 700;
 	line-height: 30px;
 	text-transform: uppercase;
+	margin-bottom: 15px;
 }
 
 .about-temp {
+	max-width: 200px;
 	color: #666666;
 	font-family: Roboto;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 18px;
+	margin: 0 auto;
+	margin-bottom: 29px;
 }
 
 .link-for-buy {
@@ -974,11 +1005,12 @@ fieldset {
 .number-page li {
 	list-style: none;
 	display: inline-block;
+	margin-right: 6px;
 }
 
 .link-firstpage {
 	display: block;
-	width: 48px;
+	width: 46px;
 	background-color: white;
 	color: #000000;
 	font-family: Roboto;
@@ -987,7 +1019,7 @@ fieldset {
 	line-height: 18px;
 	border: 3px solid lightgray;
 	text-align: center;
-	padding: 14px 0px;
+	padding: 13.9px 0px;
 	border-radius: 4px;
 
 }
@@ -1007,10 +1039,6 @@ fieldset {
 	border-radius: 4px;
 }
 
-.indent {
-	margin-right: 6px;
-}
-
 .nextpage {
 	display: block;
 	color: #000000;
@@ -1022,7 +1050,7 @@ fieldset {
 	background-color: #eeeeee;
 	border: 0px solid lightgray;
 	border-radius: 4px;
-	padding: 16px 75px;
+	padding: 16px 78px;
 }
 
 .for-cost,
@@ -1058,4 +1086,49 @@ fieldset {
 
 .up-button {
 	fill: #a6a6a6;
+}
+
+.sorting-list {
+	min-width: 360px;
+	display: flex;
+	align-items: center;
+}
+
+.list-for-sorting:nth-child(1) {
+	margin-right: 23px;
+}
+
+.list-for-sorting:nth-child(2) {
+	margin-right: 22.4px;
+}
+
+.list-for-sorting:nth-child(3) {
+	margin-right: 37px;
+}
+
+.list-for-sorting:nth-child(4) {
+	margin-right: 14px;
+}
+
+.our-templates {
+	padding-top: 49px;
+	padding-left: 41px;
+	margin-bottom: 28.1px;
+}
+
+.filter-item {
+	margin-bottom: 46px;
+}
+
+.variant-find-two {
+	margin: 0;
+	padding: 0;
+}
+
+.indent {
+	margin-bottom: 9.5px;
+}
+
+.grid {
+	margin-bottom: 16.6px;
 }
