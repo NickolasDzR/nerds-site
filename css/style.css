@@ -514,7 +514,7 @@ a {
 	background-color: white;
 }
 
-.write-us {
+.login-link {
 	display: inline-block;
 	background-color: #fb6165;
 	border: none;
@@ -1580,6 +1580,18 @@ fill: #231f20;
 	padding: 73px 101px;
 }
 
+.please-write-us{
+	position: absolute;
+	left: 306px;
+	top: 2450px;
+	display: flex;
+	justify-content: space-between;
+	width: 960px;
+	height: 590px;
+	background-color: white;
+	box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
+}
+
 .for-cost-legend {
 	color: #000000;
 	font-family: Roboto;
@@ -1613,18 +1625,6 @@ fill: #231f20;
 	opacity: 0.3;
 }
 
-.write {
-	position: absolute;
-	left: 220px;
-	top: 1900px;
-	display: flex;
-	justify-content: space-between;
-	width: 960px;
-	height: 590px;
-	background-color: white;
-	box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
-}
-
 .form-unshow:hover::before,
 .form-unshow:hover::after {
 	opacity: 1;
@@ -1641,4 +1641,12 @@ fill: #231f20;
 
 .form-unshow::after {
 	transform: rotate(-45deg);
+}
+
+.modal-unshow {
+	display: none;
+}
+
+.modal-show {
+	display: block;
 }

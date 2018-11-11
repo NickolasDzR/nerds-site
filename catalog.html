@@ -241,7 +241,7 @@
 						<h3 class='nerds-text'>NЁRDS DESIGN STUDIO</h3>
 						<p class='our-adress'>191186, Санкт-Петербург, ул. Б. Канюшенная, д.19/8</p>
 						<p class='our-phone'>тел. +7 (812) 275-75-75</p>
-						<a class='write-us' href='#login-link'>Напишите нам</a>
+						<a class='login-link' href='#login-link'>Напишите нам</a>
 					</div>
 				</div>
 				<div class='image-container'>
@@ -284,7 +284,7 @@
 			</div>
 		</footer>
 	</div>
-	<section class="write form-show">
+	<section class="modal-unshow please-write-us">
 		<h2 class="visually-hidden">Как до нас добраться</h2>
 		<div class='form-contact'>
 			<form>
@@ -306,11 +306,24 @@
 				<button class='write-us-form' type='submit'>Отправить</button>
 			</form>
 		</div>
-		<button class="form-unshow" type="button">Закрыть</button>
+		<button class="form-unshow modal-close" type="button">Закрыть</button>
 	</section>
+
 	<script>
-
-
+		var link = document.querySelector(".login-link");
+		var popup = document.querySelector('.modal-unshow');
+		var close = document.querySelector('.modal-close');
+		var text = popup.querySelector('[name=your-name]');
+		var form = popup.querySelector('form');
+		link.addEventListener('click', function (evt) {
+			evt.preventDefault();
+		popup.classList.add('modal-show');
+		text.focus();
+		});
+		close.addEventListener('click', function (evt) {
+			evt.preventDefault();
+			popup.classList.remove('modal-show');
+		});
 	</script>
 </body>
 
