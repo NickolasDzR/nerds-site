@@ -30,7 +30,7 @@
 						<a class='nav-link-two' href='#clients'>Клиенты</a>
 					</li>
 					<li class='menu-item'>
-						<a class='nav-link-three' href='#shops'>Магазин</a>
+						<a class='nav-link-three' href='catalog.html'>Магазин</a>
 					</li>
 					<li class='menu-item'>
 						<a class='nav-link-four' href='#contacts'>Контакты</a>
@@ -244,6 +244,31 @@
 			</div>
 		</footer>
 	</div>
-</body>
+	<section class="modal-unshow write-us-index">
+			<h2 class="visually-hidden">Как до нас добраться</h2>
+			<div class='form-contact'>
+				<form>
+					<legend class='for-cost-legend indent'>Напишите нам</legend>
+					<div class='two-form'>
+						<div class='first-form'>
+							<label for='your-name' class='your-name-style'>Ваше имя</label>
+							<input id='your-name' class='input-your-name' type='text' name='your-name' placeholder='Имя Фамилия'>
+						</div>
+						<div class='second-form'>
+							<label for='your-email' class='your-email-style'>Ваш e-mail</label>
+							<input id='your-email' class='input-your-email' type='text' name='your-email' placeholder='email@example.com'>
+						</div>
+					</div>
+					<div class='your-textmessage'>
+						<label for='textmessage' class='textmessage-style'>Текст письма:</label>
+						<textarea class='input-textmessage' placeholder='В свободной форме' cols='10' rows='10' name='textmessage'></textarea>
+					</div>
+					<button class='write-us-form' type='submit'>Отправить</button>
+				</form>
+			</div>
+			<button class="form-unshow modal-close" type="button">Закрыть</button>
+		</section>
+		<script src="js/script.js"></script>
+	</body>
 
 </html>
