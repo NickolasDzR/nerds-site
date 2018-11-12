@@ -4,7 +4,7 @@ body {
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 14px;
   color: #000000;
-  background-color: lightblue;
+  background-color: white;
   background-position: top center;
   background-repeat: repeat;
 }
@@ -26,6 +26,12 @@ a {
   list-style: none;
 }
 
+.container {
+	width: 1440px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
 .main-container {
 	margin-bottom: 35px;
 }
@@ -39,12 +45,6 @@ a {
 	height: 355px;
 	background-color: #eeeeee;
 	margin-bottom: 55px;
-}
-
-.container {
-	width: 1440px;
-	margin: 0 auto;
-	background-color: #fff;
 }
 
 .container-for-slider {
@@ -185,7 +185,7 @@ a {
 	padding-top: 32px;
 	list-style: none;
 	padding-left: 51px;
-	padding-bottom: 26px;
+	padding-bottom: 28px;
 }
 
 .col-partners-image {
@@ -509,11 +509,10 @@ a {
 }
 
 .how-to-find {
-	flex: 0 0 24.6%;
-	max-width: 24.6%;
 	height: 308px;
 	width: 319px;
 	background-color: white;
+	pointer-events: all;
 }
 
 .login-link {
@@ -525,7 +524,10 @@ a {
 	text-transform: uppercase;
 	font-size: 16px;
 	margin-top: 22px;
-	padding: 15.5px 45px 15.5px 43px;
+	width: 218px;
+	height: 33px;
+	text-align: center;
+	padding-top: 17px;
 }
 
 .about-us-block {
@@ -549,7 +551,7 @@ a {
 	width: 1160px;
 	border-bottom: 2px solid lightgray;
 	margin: 0 auto;
-	margin-bottom: 80px;
+	margin-bottom: 81px;
 }
 
 .dash {
@@ -728,21 +730,27 @@ svg[class^='image-'] {
 }
 
 .container-map {
+	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-	position: relative;
 	background-image: url(../img/map.jpg);
 	background-repeat: no-repeat;
 	box-sizing: border-box;
 	min-height: 416px;
-	padding-top: 54px;
-	padding-left: 140px;
+}
+
+.container-for-form {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	width: 911px;
+	height: 311px;
+	margin-left: 140px;
+	margin-top: 55px;
+	pointer-events: none;
 }
 
 .image-container {
-	flex: 0 0 45.5%;
-	max-width: 45.5%;
-	text-align: right;
 	margin-top: 35px;
 }
 
@@ -1174,8 +1182,12 @@ fieldset {
 }
 
 .google-map {
-	display: block;
-	margin: 0 auto;
+	border: none;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
 .about-temp {
