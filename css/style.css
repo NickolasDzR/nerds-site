@@ -736,6 +736,7 @@ svg[class^='image-'] {
 	background-image: url(../img/map.jpg);
 	background-repeat: no-repeat;
 	box-sizing: border-box;
+	width: 100%;
 	min-height: 416px;
 }
 
