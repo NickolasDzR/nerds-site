@@ -12,3 +12,8 @@ close.addEventListener('click', function (evt) {
   evt.preventDefault();
   popup.classList.remove('modal-show');
 });
+/*
+59.938631, 30.323055
+img/map-marker.png
+container-map
+*/

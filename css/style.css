@@ -1181,7 +1181,7 @@ fieldset {
 	margin-bottom: 15px;
 }
 
-.google-map {
+.yandex-map {
 	border: none;
 	position: absolute;
 	bottom: 0;
@@ -1615,9 +1615,9 @@ fill: #231f20;
 }
 
 .write-us-index{
-	position: absolute;
-	left: 309px;
-	top: 1703px;
+	position: relative;
+	left: 99px;
+	top: -510px;
 	display: flex;
 	justify-content: space-between;
 	width: 960px;
