@@ -740,6 +740,11 @@ svg[class^='image-'] {
 	min-height: 416px;
 }
 
+#map {
+	width: 100%;
+	min-height: 416px;
+}
+
 .container-for-form {
 	position: relative;
 	display: flex;
