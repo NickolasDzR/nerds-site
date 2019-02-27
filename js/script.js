@@ -12,14 +12,14 @@ close.addEventListener('click', function (evt) {
   evt.preventDefault();
   popup.classList.remove('modal-show');
 });
-
 /*
 59.938631, 30.323055
 img/map-marker.png
 container-map
+*/
 
 function initMap() {
-	var centerLatLng = new google.maps.LatLng(59.938840, 30.323047);
+	var centerLatLng = new google.maps.LatLng(59.938631, 30.323055);
 	var mapOptions = {
 		center: centerLatLng,
 		zoom: 15
@@ -27,26 +27,3 @@ function initMap() {
 	var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 }
 google.maps.event.addDomListener(window, "load", initMap);
-
-i tried make full width, but i couldn't do it.
-
-function initMap() {
-  var myLatLng = {
-  lat: 59.938727, 
-  lng: 30.323658};
-
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 17,
-    center: myLatLng
-  });
-var image = 'img/map-marker.png';
-  var marker = new google.maps.Marker({
-    position: myLatLng,
-    icon:image,
-    map: map,
-    title: 'htmlacademy'
-  });
-  marker.setMap(map);
-}
-
-*/

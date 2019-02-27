@@ -535,7 +535,6 @@ a {
 	margin-top: 48px;
 	margin-bottom: 6px;
 	padding: 0 51px;
-	z-index:	10000001;
 }
 
 .ur-offer {
@@ -737,6 +736,11 @@ svg[class^='image-'] {
 	background-image: url(../img/map.jpg);
 	background-repeat: no-repeat;
 	box-sizing: border-box;
+	width: 100%;
+	min-height: 416px;
+}
+
+#map {
 	width: 100%;
 	min-height: 416px;
 }
